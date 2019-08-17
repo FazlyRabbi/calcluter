@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Section 16 home work</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron" id="jumbotron">
+
+
+      <form action="#" class="form">
+
+        <label for="name">কেতার নাম</label>
+        <input type="text" class="form-control" id="name" aria-describedby="basic-addon3" >
+
+
+        <label for="quantity">পরিমাণ</label>
+        <input type="number" class="form-control" id="quantity" aria-describedby="basic-addon3">
+
+        <label for="kg">কেজি</label>
+        <input type="number" class="form-control" id="kg" name="kg" aria-describedby="basic-addon3">
+
+        <label for="gm">গ্রাম</label>
+        <input type="number" class="form-control" id="gm" aria-describedby="basic-addon3">
+
+        <button type="button" class="btn btn-outline-success" id="btn" style="margin-bottom: 3px;">যুক্ত করুন</button>
+
+      </form>
+
+      <div class="card">
+        <div class="card-body">
+          <h3 id="person">Md.Rabbi</h3>
+          <table class="table table-bordered" id="table">
+
+            <thead>     
+              <tr>
+                <th scope="col">পরিমাণ</th>
+                <th scope="col">কেজি</th>
+                <th scope="col">গ্রাম</th>
+              </tr>
+
+            </thead>
+
+            <tbody id="tbody">
+
+
+            </tbody>
+
+
+
+          </table>
+         
+
+          <ul class="list-group" id="ul">
+             
+              <li class="list-group-item" >
+                <span class="net" id="pices"></span>
+                <span class="net" id="kgg"></span>
+                <span class="net" id="gmg"></span>
+              </li>
+          </ul>
+
+          <hr>
+          <div class="totalAccounts">
+          
+          </div>
+        </div>
+      </div>
+      
+   
+       
+      <label for="rate">প্রতি কেজির মূল্য</label>
+      <input type="number" class="form-control" id="rate" aria-describedby="basic-addon3">
+        <button type="button" class="btn btn-outline-success btn2 bottom"  style="margin-bottom: 3px;">মোট হিসাব করুন</button>
+        <button type="button" class="btn btn-outline-success btn3 bottom"  style="margin-bottom: 3px;">নতুন করে</button>
+      
+      
+    </div>
+</div>
+   
+
+<script src="ui.js"></script>
+<script src="cal.js"></script>
+<script src="main.js"></script>
+    <!-- <script src="app.js"></script> -->
+</body>
+
+</html>

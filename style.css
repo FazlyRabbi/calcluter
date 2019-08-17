@@ -1,0 +1,73 @@
+#jumbotron {
+    background: white;
+    text-align: center;
+
+}
+
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 15%;
+    display: inline-block;
+}
+
+#btn {
+    width: 20%;
+    margin-top: 10px;
+
+}
+
+.btn3 {
+    margin-left: 519px;
+}
+
+h3 {
+    color: #28A745;
+}
+
+.net {
+    width: 16vw;
+    display: inline-block;
+
+
+}
+
+
+.list-group-item {
+    background: rgba(13, 90, 31, 0.76);
+    color: #fff;
+    text-align-last: initial;
+}
+
+#rate {
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+
+    .form-control {
+        width: 100%;
+    }
+
+    #btn {
+        margin-top: 10px;
+    }
+
+    .net {
+        width: 19vw;
+    }
+
+    .btn3 {
+        margin: 0px;
+    }
+
+
+    .bottom {
+        margin-top: 5px;
+    }
+
+
+}
